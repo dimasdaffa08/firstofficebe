@@ -30,7 +30,7 @@ class BookingTransaction extends Model
 
     public static function generateUniqueTrxId()
     {
-        $prefix = 'FO';
+        $prefix = 'FOS';
 
         do {
             $randomString = $prefix . mt_rand(1000, 9999);
